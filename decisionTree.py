@@ -17,7 +17,7 @@ data = [{'outlook': 'sunny', 'temperature': 'hot', 'humidity': 'high', 'windy': 
 ,{'outlook': 'rainy', 'temperature': 'mild', 'humidity': 'high', 'windy': 'true', 'play': 'no'}]
 
 def log2(x):
-    return math.log10(x)/math.log10(2)
+    return math.log10(x)/math.log10(2)      #Since the formula uses log to the base 2
 
 def entropy(data, target):
     '''Finds entropy of a 'target' for given 'data'.
